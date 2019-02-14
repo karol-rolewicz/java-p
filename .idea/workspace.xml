@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ff21cdd-db28-47e5-b571-fd3314e7dee1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/jp1/Jp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp2/Jp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp3/Jp3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp4/Jp4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp5/Jp5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp6/Jp6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp7/Jp7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jp8/Jp8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jp8/Jp8.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -91,6 +85,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/start/Hello.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="537">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/jp6/Jp6.java" />
         <option value="$PROJECT_DIR$/src/jp7/Jp7.java" />
         <option value="$PROJECT_DIR$/src/jp8/Jp8.java" />
+        <option value="$PROJECT_DIR$/src/start/Hello.java" />
       </list>
     </option>
   </component>
@@ -147,6 +151,12 @@
               <item name="java-p" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-p" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-p" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +164,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550176841994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550177888771" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,39 +178,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Jp8">
-    <configuration name="Jp4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp4.Jp4" />
+  <component name="RunManager" selected="Application.Variables">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.Hello" />
       <module name="java-p" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jp4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Jp5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp5.Jp5" />
-      <module name="java-p" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jp5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Jp6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jp6.Jp6" />
-      <module name="java-p" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jp6.*" />
+          <option name="PATTERN" value="start.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,13 +218,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.Operators" />
+      <module name="java-p" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.Variables" />
+      <module name="java-p" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Variables" />
+        <item itemvalue="Application.Operators" />
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.Jp8" />
         <item itemvalue="Application.Jp7" />
-        <item itemvalue="Application.Jp6" />
-        <item itemvalue="Application.Jp5" />
-        <item itemvalue="Application.Jp4" />
       </list>
     </recent_temporary>
   </component>
@@ -346,6 +356,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/start/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
       </provider>
     </entry>
